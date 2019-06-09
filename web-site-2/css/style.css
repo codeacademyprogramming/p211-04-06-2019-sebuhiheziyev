@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+#main {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 38, 51, 0.8) 0,
+      rgba(0, 38, 51, 0.8) 100%
+    ),
+    url("https://yasamal.mida.gov.az/assets/images/slider/2.jpg");
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.logo img {
+  position: absolute;
+  z-index: 5;
+}
+.logo span {
+  left: 135px;
+  position: absolute;
+  display: block;
+  font-size: 22px;
+  white-space: nowrap;
+  line-height: 33px;
+  z-index: 1;
+  top: 10%;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#navbar {
+  height: 64px;
+  line-height: 64px;
+  padding: 5px 0px 0px 5px;
+}
+#navbar .menu {
+  left: 37%;
+  position: absolute;
+  z-index: 10;
+  color: #ffffff;
+  list-style: none;
+  font-weight: 700;
+}
+#navbar ul li a {
+  margin-right: 20px;
+  color: #ffffff;
+}
+#navbar ul li a:hover {
+  text-decoration: none;
+}
+.list {
+  display: none;
+  position: absolute;
+  margin-left: -5%;
+  width: 208px;
+  color: white;
+}
+.activ:hover .list {
+  display: block;
+}
+
+.list li {
+  float: left;
+  text-align: left;
+  width: 100%;
+  padding-left: 5px;
+  margin-top: 5px !important;
+  height: 42px;
+  line-height: 42px;
+  background: rgba(0, 38, 51, 0.7);
+}
+.socail-network ul {
+  list-style: none;
+}
+.socail-network ul li a i {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background: white;
+  color: #496671;
+}
+.welcom-page {
+  padding-top: 200px;
+}
+.welcom-page h1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 0.92;
+  color: #e0d049;
+  margin-bottom: 35px;
+  text-align: left;
+}
+.tab-header ul {
+  list-style: none;
+}
+.tab-header ul a i {
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.tab-header ul li {
+    padding: 10px 0px;
+        width: 384px;
+ 
+}
+
+.tab-header ul a {
+  color: #ffffff;
+  font-size: 20px;
+}
+.arrow {
+  position: absolute;
+  left: -10%;
+}
+.tab-header a:hover i.arrow {
+  display: block;
+}
+.tab-header a:hover {
+  text-decoration: none;
+}
+.tab-header a.active {
+  font-weight: bold;
+  transform: scale(1.05);
+  color: #e0d049;
+  position: relative;
+  left: 10px;
+  transition: 0.3s ease;
+}
+
+.tab-body > div {
+  display: none;
+}
+.tab-body > div.active {
+  display: block;
+}
+.tab {
+  display: flex;
+}
+.tab-body{
+    width: 650px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 18px;
+}

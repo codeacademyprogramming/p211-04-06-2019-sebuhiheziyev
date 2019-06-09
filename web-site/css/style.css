@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+}
+a:hover{
+    text-decoration: none;
+}
+.cogs-icon{
+    background-color: #151719;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: -40px;
+    top: 135px;
+    width: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0 4px 4px 0;
+}
+.cogs-icon:hover{
+    color: #fff;
+}
+.style-switcher{
+    background: #151719;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    z-index: 100000000000000;
+    border-radius: 0;
+    left: -250px;
+    transition: left .2s;
+}
+.style-switcher h4{
+    background: #151719;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 0 0 7px;
+    padding: 0;
+}
+.all-switcher{
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+    position: relative;
+}
+.style-switcher h5{
+    color: #999;
+    margin: 0 0 2px 0;
+    padding: 0;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: none;
+}
+.active {
+    left: 0;
+}   
+.form-control{
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.all-switcher{
+    padding: 15px;
+}
+.btn-a:hover{
+    color:#ccc;
+}
+.input-color{
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    height: 38px;
+    margin-left: -10px;
+}
+.input-color i {
+    display: inline-block;
+    cursor: pointer;
+    height: 16px;
+    vertical-align: text-top;
+    width: 16px;
+    background-color: rgb(7, 11, 13);
+}
+.ito i{
+    background-color: rgb(227, 97, 89);
+}
+.ithri i{
+    background-color: rgb(0, 0, 0);
+}
+.ifo i{
+    background-color: rgb(56, 63, 72);
+}
+.btn-a{
+    background-color: #000;
+    color: #ccc;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    padding: 5px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.actived{
+    background: #fff;
+    color: #666;
+}
+.style-button a:hover{
+    color: #666;
+}
+.bg-imgs{
+    list-style: none;
+    margin: -3px 0 10px 0;
+    padding: 0;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.bg-imgs li{
+    margin: 2px;
+}
+.bg-imgs li a img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.end-btn{
+    border-top: 1px solid #000;
+    margin-top: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+.end-btn a{
+    padding: 8px;
+    font-size: 13px;
+    display: inline-block;
+    width: 74px;
+    background-color: #000;
+    color: #ccc;
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-right: 5px;
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.end-btn a.get{
+    width: 137px;
+    font-weight: 500;
+    padding: 13px 12px;
+}
+.end-btn a.get i{
+    padding: 0px 5px;
+}
